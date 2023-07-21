@@ -1,0 +1,8 @@
+﻿@using Business.ViewModels.Category
+@model CategoryUpdateVM
+
+<form asp-action="update" asp-controller="category">
+	<input asp-for="Title" />
+	<span asp-validation-for="Title"></span>
+	<button>Update</button>
+</form>
